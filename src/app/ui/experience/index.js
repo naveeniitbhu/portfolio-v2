@@ -9,24 +9,45 @@ export default function Experience() {
       company: 'CBS',
       duration: 'August 2023 - Present',
       highlights: [
-        'Built custom Tumblr themes for various advertising agencies',
-        'Built user interfaces for our customers using Next.js and React',
-        'Worked on various projects including a digital product studio',
-        'Collaborated with designers and engineers to create accessible and intuitive interfaces',
+        <>
+          <span className='primary-text-color' key='company-portal'>Company Portal:</span><span key="company-portal-description"> I worked with the team on various projects. First is the company portal myscphealth.com
+            which can be accessed via okta only. This portal was created using Next.js, material UI etc.
+            I created various features here. One is medical director reports which allows an individual to submit reports
+            and another individual can review it. Second is creating resources section and bringing all our resources under
+            one roof. This included pdf reports, videos etc. Third is creating a section for getting all the facilities
+            associated with an individual and allowing the individual to fetch and submit and necessary info to it.</span>
+        </>,
+        <>
+          <span className='primary-text-color' key='care-app'>Care App:</span><span key="care-description"> I also worked on a mobile app &quot;Care&quot;. This app was used to schedule any appointments with a doctor.
+            The doctor can also see all the info corresponding to his facility here.</span>
+        </>,
+        <>
+          <span className='primary-text-color' key='connect-app'>Connect App:</span><span key="connect-description"> I also worked on a mobile app &quot;Connect&quot;. This app was used to schedule any appointments with a doctor.
+            The doctor can also see all the info corresponding to his facility here.</span>
+        </>,
+        <>
+          <span className='primary-text-color' key='patient-portal'>Patient Portal:</span><span key="patient-portal-description"> I also worked on a mobile app &quot;Patient Portal&quot;. This app was used to schedule any appointments with a doctor.
+            The doctor can also see all the info corresponding to his facility here.</span>
+        </>,
       ],
-      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js'],
-      companyLink: 'https://tekion.com/'
+      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js', 'React Native', 'Xcode', 'Android Studio'],
+      companyLink: 'https://scphealth.com/'
     },
     {
       title: 'Senior Software Engineer',
       company: 'Tekion',
       duration: 'May - August 2023',
       highlights: [
-        'Built a web application for managing Korok seeds using the Spotify API',
-        'Worked on various projects including a digital product studio',
-        'Collaborated with designers and engineers to create accessible and intu'
+        `Worked on a web application for HONDA. This web application allows
+        an individual to purchase a car completely online. From documentation to payment(including leasing if any)
+        , everything was taken care in this web application. A user could also order any additional accessories 
+        via this application.`,
+        `I worked in building the frontend for various pages(accessories, payment, delivery etc.). I also worked on
+        creating generic elements to be used across multiple projects. Next.js was used for this web application.
+        For state management, we were using Context API.`,
+        `Collaborated with designers and engineers to streamline the creation of various elements and streamline the process for other individuals in our tema.`
       ],
-      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js'],
+      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js', 'Context'],
       companyLink: 'https://tekion.com/'
     },
     {
@@ -34,46 +55,60 @@ export default function Experience() {
       company: 'Cubera',
       duration: 'August - May 2023',
       highlights: [
-        'Built a web application for managing Korok seeds using the Spotify API',
-        'Worked on various projects including a digital product studio',
-        'Collaborated with designers and engineers to create accessible and intu'
+        `Built a mobile application using React Native and Redux Saga. 
+        This app allowed an individual to configure a cubera router under 60secs. 
+        Also, certain data of the individual was collected by this app which will be monetised through advertisements`,
+        `Built the company website using Next.js`,
+        `Wrote scripts to streamline building the android apk.
+        I also took care of setting up code-signing, provisioning profile, creating identifiers,
+        certificates etc. required to publish the iOS apps.`
+
       ],
-      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js'],
+      technologies: ['React Native', 'Typescript', 'Redux', 'Next.js'],
       companyLink: 'https://cubera.co/'
     },
     {
       title: 'Software Engineer',
       company: 'CuriousJr',
-      duration: 'November - August 2022',
+      duration: 'November - July 2022',
       highlights: [
-        'Built a web application for managing Korok seeds using the Spotify API',
-        'Worked on various projects including a digital product studio',
-        'Collaborated with designers and engineers to create accessible and intu'
+        `CuriousJr is a platform for teaching coding to kids via mobile.
+        I built the company website using React and Redux.
+        All the best practices for website development like SSR, no multiple 
+        render, adding sitemaps for SEO and others have
+        been used while developing this website.`,
+        `Worked on creating dashboards for internal use of the team. 
+        This was used to upload images, short videos to curiousjr app`,
+        `Worked on creating frameworks to be used with webview in CuriouJr app. 
+        This was required as code written by an individual in this app was executed using this framework.`,
       ],
-      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js'],
+      technologies: ['React', 'Typescript', 'Redux', 'React Native', 'SSR'],
       companyLink: 'https://www.curiousjr.com/'
     },
     {
       title: 'Software Engineer',
       company: 'Idea To Startup',
-      duration: 'July 2021 - October 2022',
+      duration: 'July 2020 - October 2021',
       highlights: [
-        'Built a web application for managing Korok seeds using the Spotify API',
-        'Worked on various projects including a digital product studio',
-        'Collaborated with designers and engineers to create accessible and intu'
+        `Worked on a project here named "Civol". This is a platform for users to interact and discuss various issues
+        through short videos (less than 90 secs). People can reply to others through videos
+        only and can also start a separate debate. There is also a rating system so that
+        users can rate others’ videos.`,
+        `Upgraded the complete project from material-ui version-1 to version-4. This was a
+        substantial change as some components were removed in version-4 and had to be
+        rebuilt using the latest one.`
       ],
-      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js'],
+      technologies: ['JavaScript', 'Typescript', 'React', 'Redux', 'React Native', 'Postgres'],
       companyLink: 'https://tekion.com/'
     },
     {
       title: 'Freelancer - Software Engineer',
-      duration: 'Jan - July 2021',
+      duration: 'Jan - June 2020',
       highlights: [
-        'Built a web application for managing Korok seeds using the Spotify API',
-        'Worked on various projects including a digital product studio',
-        'Collaborated with designers and engineers to create accessible and intu'
+        `Designed a website where one can detect face from images using
+        Face Recognition API from Clarifai (www.clarifai.com).`,
       ],
-      technologies: ['JavaScript', 'Typescript', 'React', 'Next.js'],
+      technologies: ['JavaScript', 'React', 'Node'],
       companyLink: 'https://tekion.com/'
     }]
   return (
@@ -105,9 +140,11 @@ export default function Experience() {
                         </a>
                       </div>
                     </h3>
-                    <p className="mt-2 text-sm leading-normal">
-                      {data.highlights}
-                    </p>
+                    {data.highlights.map((details, index) => (
+                      <p key={details} className="mt-2 text-sm leading-normal secondary-text-color">
+                        {details}
+                      </p>
+                    ))}
                     <ul className="mt-2 flex flex-wrap" aria-label="Technologies used">
                       {data.technologies.map((tag) => (
                         <li className="mr-1.5 mt-2" key={tag}>

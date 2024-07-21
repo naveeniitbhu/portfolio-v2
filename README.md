@@ -5,7 +5,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
+npm run dev || npm run dev -- -p 3001
+"--" Indicates the end of node options. Pass the rest of the arguments to the script. If no script filename or eval/print script is supplied prior to this, then the next argument will be used as a script filename.
 # or
 yarn dev
 # or
