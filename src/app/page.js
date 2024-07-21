@@ -1,10 +1,10 @@
-import Experience from "@/ui/experience";
-import About from "@/ui/about";
-import IconLink from "@/ui/IconLink";
-import GithubIcon from "@/ui/icons/github/Github";
-import LinkedinIcon from "@/ui/icons/linkedin/Linkedin";
-import Resume from "@/ui/resume";
-import Skills from "@/ui/skills";
+import Experience from "@/app/ui/experience/index";
+import About from "@/app/ui/about";
+import IconLink from "@/app/ui/IconLink";
+import GithubIcon from "@/app/ui/icons/github/Github";
+import LinkedinIcon from "@/app/ui/icons/linkedin/Linkedin";
+import Resume from "@/app/ui/resume";
+import Skills from "@/app/ui/skills";
 
 export default function Home() {
   const iconLinkdata = [

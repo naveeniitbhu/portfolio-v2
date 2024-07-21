@@ -1,4 +1,4 @@
-import ArrowLink from '@/ui/icons/arrowLink/ArrowLink';
+import ArrowLink from '@/app/ui/icons/arrowLink/ArrowLink';
 
 const Resume = () => {
   return (

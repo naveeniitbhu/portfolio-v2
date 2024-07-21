@@ -1,4 +1,4 @@
-import SectionHeading from "@/ui/sectionHeading"
+import SectionHeading from "@/app/ui/sectionHeading"
 
 export default function About() {
   return (

@@ -1,4 +1,4 @@
-import SectionHeading from "@/ui/sectionHeading"
+import SectionHeading from "@/app/ui/sectionHeading"
 import Image from 'next/image';
 
 const skills = [
