@@ -121,7 +121,9 @@ export default function Experience() {
             )
           })}
         </ol>
-        <Resume />
+        <div className="mt-12">
+          <Resume />
+        </div>
       </div>
     </section >
   )
