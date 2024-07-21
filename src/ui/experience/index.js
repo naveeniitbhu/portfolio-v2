@@ -1,6 +1,6 @@
-import Tag from '@/app/ui/tag';
-import ArrowLink from '@/app/ui/icons/arrowLink/ArrowLink';
-import Resume from '@/app/ui/resume';
+import Tag from '@/ui/tag';
+import ArrowLink from '@/ui/icons/arrowLink/ArrowLink';
+import Resume from '@/ui/resume';
 
 export default function Experience() {
   const experienceData = [
