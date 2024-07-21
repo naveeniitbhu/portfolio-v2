@@ -1,6 +1,9 @@
+import SectionHeading from "@/ui/sectionHeading"
+
 export default function About() {
   return (
-    <section id="about" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="About">
+    <section id="about" className="mb-16 scroll-mt-16 md:mb-4 lg:mb-4 lg:scroll-mt-24" aria-label="About">
+      <SectionHeading heading="ABOUT" />
       <div className="flex flex-col gap-y-6 text-justify">
         <p className="leading-normal secondary-text-color">
           As a seasoned <span className="primary-text-color">React, </span><span className="primary-text-color">React Native</span> and <span className="primary-text-color">Node developer</span>,

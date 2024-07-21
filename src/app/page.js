@@ -4,6 +4,7 @@ import IconLink from "@/ui/IconLink";
 import GithubIcon from "@/ui/icons/github/Github";
 import LinkedinIcon from "@/ui/icons/linkedin/Linkedin";
 import Resume from "@/ui/resume";
+import Skills from "@/ui/skills";
 
 export default function Home() {
   const iconLinkdata = [
@@ -22,6 +23,10 @@ export default function Home() {
   const categories = [{
     title: 'About',
     href: '#about'
+  },
+  {
+    title: 'Skills | Technologies',
+    href: '#skills'
   },
   {
     title: 'Experience',
@@ -75,6 +80,7 @@ export default function Home() {
         </header>
         <main className="pt-24 lg:w-1/2 lg:py-24">
           <About />
+          <Skills />
           <Experience />
         </main>
       </div>
