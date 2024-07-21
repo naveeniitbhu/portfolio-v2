@@ -10,7 +10,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-8 lg:scroll-mt-24" aria-label="Skills">
+    <section id="skills" className="mt-16 mb-16 scroll-mt-16 md:mb-24 lg:mb-8 lg:scroll-mt-24" aria-label="Skills">
       <div>
         <SectionHeading heading="SKILLS | TECHNOLOGIES" />
         <div className="flex flex-row gap-x-6 flex-wrap">
