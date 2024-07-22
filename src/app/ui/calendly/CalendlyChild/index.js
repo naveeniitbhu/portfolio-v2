@@ -1,25 +1,3 @@
-// 'use client';
-
-// import { PopupButton } from "react-calendly";
-
-// const PopupButtonCalendly = () => {
-//   return (
-//     <div className="App">
-//       <PopupButton
-//         url="https://calendly.com/ngnaveen83/30min"
-//         /*
-//          * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-//          * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-//          */
-//         rootElement={document.getElementById("root")}
-//         text="Click here to schedule!"
-//       />
-//     </div>
-//   );
-// };
-
-// export default PopupButtonCalendly;
-
 'use client'
 import { PopupButton } from "react-calendly";
 import { useEffect, useState } from "react";
@@ -35,12 +13,13 @@ export default function CalendlyChild() {
   }, []);
 
   return (
-    <div className="cal_div">
+    <div className="cal_div pt-8">
       <PopupButton
         className="rounded-md bg-primary py-4 px-8 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
         url="https://calendly.com/ngnaveen83/30min"
         rootElement={rootElement}
-        text="Schedule Appointment"
+        text="Book a call"
+        styles={{ color: 'rgb(94 234 212)', backgroundColor: 'rgb(45 212 191 / 0.1)', padding: '10px 20px' }}
       />
     </div>
   );
