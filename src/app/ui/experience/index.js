@@ -113,7 +113,7 @@ export default function Experience() {
       companyLink: 'https://tekion.com/'
     }]
   return (
-    <section id="experience" className="mt-16 mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Work experience" >
+    <section id="experience" className="pt-12 lg:pb-16 scroll-mt-16 lg:scroll-mt-24" aria-label="Work experience" >
       <SectionHeading heading="EXPERIENCE" />
       <div>
         <ol className="group/list">
