@@ -81,7 +81,7 @@ export default function Home() {
             <li><Resume /></li>
           </ul>
         </header>
-        <main className="lg:w-1/2">
+        <main className="lg:w-1/2 lg:pt-4">
           <About />
           <Skills />
           <Experience />
