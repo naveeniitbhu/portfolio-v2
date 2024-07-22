@@ -5,6 +5,8 @@ import GithubIcon from "@/app/ui/icons/github/Github";
 import LinkedinIcon from "@/app/ui/icons/linkedin/Linkedin";
 import Resume from "@/app/ui/resume";
 import Skills from "@/app/ui/skills";
+import CalendlyMain from "@/app/ui/calendly"
+
 
 export default function Home() {
   const iconLinkdata = [
@@ -39,6 +41,7 @@ export default function Home() {
 
   return (
     <div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+      <CalendlyMain />
       <div className="lg:flex lg:justify-between lg:gap-4">
         <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-16">
           <div>
@@ -87,5 +90,3 @@ export default function Home() {
     </div>
   );
 };
-
-{/* <main className="pt-12 lg:w-1/2 lg:py-16"></main> */ }
