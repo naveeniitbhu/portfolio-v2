@@ -19,16 +19,19 @@ export default function Experience() {
             associated with an individual and allowing the individual to fetch and submit and necessary info to it.</span>
         </>,
         <>
-          <span className='primary-text-color' key='care-app'>Care App:</span><span key="care-description"> I also worked on a mobile app &quot;Care&quot;. This app was used to schedule any appointments with a doctor.
-            The doctor can also see all the info corresponding to his facility here.</span>
+          <span className='primary-text-color' key='care-app'>Care Mobile App and Web:</span><span key="care-description"> I also worked on &quot;Care&quot;
+            which was used to schedule any appointments with a doctor. The doctor can also see all the info corresponding to his facility here. This app was built for use of doctors only. They could reschedule, see history of patients along with any other details.</span>
         </>,
         <>
-          <span className='primary-text-color' key='connect-app'>Connect App:</span><span key="connect-description"> I also worked on a mobile app &quot;Connect&quot;. This app was used to schedule any appointments with a doctor.
-            The doctor can also see all the info corresponding to his facility here.</span>
+          <span className='primary-text-color' key='connect-app'>Patient Portal:</span><span key="connect-description"> Another project I worked on was patient portal.
+            This was primarily used by patients for booking appointment in a facility. They could see the availability of doctors and so book a slot accordingly.</span>
         </>,
         <>
-          <span className='primary-text-color' key='patient-portal'>Patient Portal:</span><span key="patient-portal-description"> I also worked on a mobile app &quot;Patient Portal&quot;. This app was used to schedule any appointments with a doctor.
-            The doctor can also see all the info corresponding to his facility here.</span>
+          <span className='primary-text-color' key='patient-portal'>Connect Mobile App and Web:</span><span key="patient-portal-description"> Connect was used for communication between doctors and employees.
+            They could coordinate, get details and do any other task via this application.</span>
+        </>,
+        <>
+          <span className='primary-text-color' key='patient-portal'>SCP Backend:</span><span key="patient-portal-description"> A centralized backend for all the mobile applications and web applications.</span>
         </>,
       ],
       technologies: ['JavaScript', 'Typescript', 'React', 'Next.js', 'React Native', 'Xcode', 'Android Studio'],
