@@ -118,7 +118,7 @@ export default function Experience() {
   return (
     <section id="experience" className="pt-12 lg:pb-16 scroll-mt-16 lg:scroll-mt-24" aria-label="Work experience" >
       <SectionHeading heading="EXPERIENCE" />
-      <div>
+      <div className="pt-4">
         <ol className="group/list">
           {experienceData.map((data) => {
             return (

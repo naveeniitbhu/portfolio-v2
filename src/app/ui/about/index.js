@@ -1,9 +1,8 @@
 import SectionHeading from "@/app/ui/sectionHeading"
 
-{/* <section id="about" className="pt-12 lg:py-16 mb-16 scroll-mt-16 md:mb-4 lg:mb-4 lg:scroll-mt-24" aria-label="About"></section> */ }
 export default function About() {
   return (
-    <section id="about" className="pt-12 scroll-mt-16 lg:scroll-mt-24" aria-label="About">
+    <section id="about" className="pt-16" aria-label="About">
       <SectionHeading heading="ABOUT" />
       <div className="flex flex-col gap-y-6 text-justify">
         <p className="leading-normal secondary-text-color">
