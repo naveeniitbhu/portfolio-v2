@@ -7,7 +7,8 @@ import Resume from "@/app/ui/resume";
 import Skills from "@/app/ui/skills";
 import CalendlyMain from "@/app/ui/calendly"
 import Image from 'next/image';
-
+import Carousel from '@/app/ui/carousel';
+import Carousel2 from '@/app/ui/carousel2';
 
 export default function Home() {
   const iconLinkdata = [
@@ -40,16 +41,16 @@ export default function Home() {
     href: '#projects'
   }]
 
+  const images1 = [
+    '/slide1.jpg',
+    '/slide2.jpg',
+    '/slide3.jpg',
+  ];
+
   return (
     <div>
-      <div style={{ position: 'relative', height: '100vh', width: '100wh' }}>
-        <Image
-          key="/react.svg"
-          fill={true}
-          src="/slide1.jpg"
-          alt="Follow us on Twitter"
-        />
-      </div>
+      {/* <img src="/slide1.jpg" /> */}
+      {/* <Carousel2 /> */}
       <div className="px-40">
         <About />
         <Skills />
