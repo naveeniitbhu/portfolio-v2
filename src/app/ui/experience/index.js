@@ -1,6 +1,5 @@
 import Tag from '@/app/ui/tag';
 import ArrowLink from '@/app/ui/icons/arrowLink/ArrowLink';
-import Resume from '@/app/ui/resume';
 import SectionHeading from "@/app/ui/sectionHeading"
 
 export default function Experience() {
@@ -116,7 +115,7 @@ export default function Experience() {
       companyLink: 'https://tekion.com/'
     }]
   return (
-    <section id="experience" className="pt-12 lg:pb-16 scroll-mt-16 lg:scroll-mt-24" aria-label="Work experience" >
+    <section id="experience" className="pt-12 scroll-mt-16 lg:scroll-mt-24" aria-label="Work experience" >
       <SectionHeading heading="EXPERIENCE" />
       <div>
         <ol className="group/list">
@@ -160,9 +159,6 @@ export default function Experience() {
             )
           })}
         </ol>
-        <div className="mt-12">
-          <Resume />
-        </div>
       </div>
     </section >
   )

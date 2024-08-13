@@ -1,4 +1,5 @@
 import Experience from "@/app/ui/experience/index";
+import Projects from "@/app/ui/projects/index";
 import About from "@/app/ui/about";
 import IconLink from "@/app/ui/IconLink";
 import GithubIcon from "@/app/ui/icons/github/Github";
@@ -85,6 +86,7 @@ export default function Home() {
           <About />
           <Skills />
           <Experience />
+          <Projects />
         </main>
       </div>
     </div>
