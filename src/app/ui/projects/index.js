@@ -7,10 +7,66 @@ import Link from 'next/link'
 export default function Projects() {
   const projectsData = [
     {
+      image: '/connect-web.png',
+      companyLink: 'https://connect.myscp.com/login',
+      highlights: [
+        <>
+          <span className='primary-text-color' key='patient-portal'>Connect Web:</span>
+          <span key="patient-portal-description"> Connect website for communication between doctors and employees.</span>
+        </>
+      ]
+    },
+    {
+      image: '/connect.png',
+      companyLink: 'https://apps.apple.com/us/app/myscp-connect/id1285276892',
+      highlights: [
+        <>
+          <span className='primary-text-color' key='patient-portal'>Connect App:</span>
+          <span key="patient-portal-description"> iOS & android app for scp-health for communication app between doctors and employees.</span>
+        </>
+      ]
+    },
+    {
+      image: '/care-web.png',
+      companyLink: 'https://care.myscp.com/login',
+      highlights: [
+        <>
+          <span className='primary-text-color' key='patient-portal'>Care Web:</span>
+          <span key="patient-portal-description"> Care website for appointment setting with doctor. Also, it enables doctors to see details of all his patients.</span>
+        </>
+      ]
+    },
+    {
+      image: '/care.png',
+      companyLink: 'https://apps.apple.com/us/app/myscp-care/id1485581229',
+      highlights: [
+        <>
+          <span className='primary-text-color' key='patient-portal'>Care App:</span>
+          <span key="patient-portal-description"> iOS & android app for scp-health.</span>
+        </>
+      ]
+    },
+    {
+      title: '2021-2022 - Curious JR',
+      image: '/curiousjr.png',
+      content: 'Ed-Tech platform for teaching coding to kids',
+      companyLink: 'https://www.curiousjr.com/',
+      highlights: [
+        <>
+          <span key="patient-portal-description"> Ed-Tech platform for teaching coding to kids.</span>
+        </>,
+      ]
+    },
+    {
       title: '2024 - Shivaay Infratech',
       image: '/shivaay.png',
       content: 'Building the website for the company showcasing all its details including facility to upload resumes etc.',
-      companyLink: 'https://shivaayinfratech.in/'
+      companyLink: 'https://shivaayinfratech.in/',
+      highlights: [
+        <>
+          <span className='primary-text-color' key='patient-portal'>Connect Web:</span><span key="patient-portal-description"> Connect was used for communication between doctors and employees.</span>
+        </>
+      ]
     }]
   return (
     <section id="projects" className="lg:pb-16 scroll-mt-16 lg:scroll-mt-24" aria-label="Work experience" >
@@ -19,7 +75,7 @@ export default function Projects() {
         <ol className="group/list">
           {projectsData.map((data, index) => {
             return (
-              <li className="mb-12" key={data.title}>
+              <li className="mb-12" key={data.image.concat(index.toString())}>
                 <Link
                   className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300  group/link text-base"
                   href={data.companyLink}
@@ -31,17 +87,20 @@ export default function Projects() {
                     <Image
                       width={160}
                       height={48}
-                      src="/shivaay.png"
+                      src={data.image}
                       alt="Follow us on Twitter"
                       className="max-w-max"
                       href={data.companyLink}
                     />
                     <div>
-                      <p className="text-sm font-semibold leading-6">{data.title}</p>
+                      {data?.title && <p className="text-sm font-semibold leading-6">{data.title}</p>}
                       <h3>
-                        <span>{data.content}
-                          <ArrowLink />
-                        </span>
+                        {data.highlights.map((details, index) => (
+                          <span key={details} className="mt-2 text-sm leading-normal">
+                            {details}
+                          </span>
+                        ))}
+                        <ArrowLink />
                       </h3>
                     </div>
                   </div>
