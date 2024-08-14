@@ -7,6 +7,17 @@ import Link from 'next/link'
 export default function Projects() {
   const projectsData = [
     {
+      title: 'Curious JR',
+      image: '/curiousjr.png',
+      content: 'Ed-Tech platform for teaching coding to kids',
+      companyLink: 'https://www.curiousjr.com/',
+      highlights: [
+        <>
+          <span key="patient-portal-description"> Ed-Tech platform for teaching coding to kids.</span>
+        </>,
+      ]
+    },
+    {
       image: '/connect-web.png',
       companyLink: 'https://connect.myscp.com/login',
       highlights: [
@@ -47,24 +58,22 @@ export default function Projects() {
       ]
     },
     {
-      title: '2021-2022 - Curious JR',
-      image: '/curiousjr.png',
-      content: 'Ed-Tech platform for teaching coding to kids',
-      companyLink: 'https://www.curiousjr.com/',
-      highlights: [
-        <>
-          <span key="patient-portal-description"> Ed-Tech platform for teaching coding to kids.</span>
-        </>,
-      ]
-    },
-    {
-      title: '2024 - Shivaay Infratech',
+      title: 'Shivaay Infratech',
       image: '/shivaay.png',
-      content: 'Building the website for the company showcasing all its details including facility to upload resumes etc.',
       companyLink: 'https://shivaayinfratech.in/',
       highlights: [
         <>
           <span className='primary-text-color' key='patient-portal'>Connect Web:</span><span key="patient-portal-description"> Connect was used for communication between doctors and employees.</span>
+        </>
+      ]
+    },
+    {
+      title: 'Cubera',
+      image: '/cubera.png',
+      companyLink: 'https://cubera.co/',
+      highlights: [
+        <>
+          <span className='primary-text-color' key='patient-portal'>Cubera App:</span><span key="patient-portal-description"> Router configuration and data collection company.</span>
         </>
       ]
     }]
